@@ -23,7 +23,8 @@
       android:theme="@android:style/Theme.Translucent.NoTitleBar"
       android:launchMode="singleTop" />
 
-    <activity android:name=".RedirectUriReceiverActivity" android:exported="true">
+    <activity android:name=".RedirectUriReceiverActivity" android:exported="true"
+              android:launchMode="singleTask">
       <intent-filter>
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
